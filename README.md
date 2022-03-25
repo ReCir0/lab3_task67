@@ -12,7 +12,7 @@ import datetime
 self.creation_date = datetime.datetime.now()
 ```
 
-The class also has ```python match()``` function, that finds a match if there is one. I used flags to determane whether search by tags of memo
+The class also has ```python match()``` function, that finds a match if there is one. I used flags to determane whether search by tags or memo
 
 ```python
 def match(self, search_filter, code):
