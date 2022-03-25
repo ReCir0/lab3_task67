@@ -6,8 +6,7 @@ The goal was to create a Notebook program, that would alow user to create notes 
 
 ## Class Note
 
-The class note has three variables in it: memo(a text of a note), tags(a list of tags of a note) and the date of creation a note
-To calculate the time when the note was created:
+The class note has three variables in it: memo(a text of a note), tags(a list of tags of a note) and the date of creation a note. To calculate the time when the note was created:
 ```python
 import datetime
 self.creation_date = datetime.datetime.now()
